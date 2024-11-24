@@ -204,6 +204,7 @@
   line-height: 100vh;
   text-align: center;
   text-transform: lowercase;
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
 @media (width >=768px) {

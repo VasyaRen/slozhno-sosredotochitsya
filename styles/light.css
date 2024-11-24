@@ -28,10 +28,6 @@
   --menu-button-hov-color: rgba(50, 49, 45, 0.4);
 }
 
-.theme_light .footer__logo {
-  text-shadow: 2px 2px 0 var(--accent-color, #FF8DCB);
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;
@@ -54,6 +50,6 @@
   }
 
   .footer__logo {
-    text-shadow: 2px 2px 0 var(--accent-color, #FF8DCB);
+    text-shadow: 2px 2px 0 var(--accent-color, #ff8dcb);
   }
 }
