@@ -218,16 +218,11 @@
   }
 
   .section {
-    grid-template-columns: 1fr 2fr;
     margin-block-end: 80px;
   }
 
   .section__heading {
     grid-column: 1/2;
-  }
-
-  .reasons-advices .text-block {
-    grid-column: 2/3;
   }
 
   .low-attention .text-block {
@@ -289,6 +284,14 @@
     inline-size: 47.395vw;
   }
 
+  .section {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .reasons-advices .text-block {
+    grid-column: 2/3;
+  }
+
   .low-attention .text-block {
     grid-template-columns: 1fr;
   }
@@ -310,6 +313,14 @@
 
   .header__intro {
     inline-size: 47.949vw;
+  }
+
+  .section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .reasons-advices .text-block {
+    grid-column: span 2;
   }
 
   .low-attention .text-block {
